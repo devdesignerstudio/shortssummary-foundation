@@ -1,0 +1,46 @@
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app header {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#app > header > h1 {
+  color: #996dff;
+  margin-top: -5;
+}
+
+/* #app > img {
+  width: 64px;
+} */
+
+#app > main > div > section > h2 {
+  align-self: flex-start;
+  margin-top: 10px;
+
+}
+
+#app > main > div > section > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+  margin-top: -5px;
+}
+
+.placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}
+
+#app footer {
+  margin-top: 100px;
+  gap: 12px;
+  margin-bottom: 12px;
+}

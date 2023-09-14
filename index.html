@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Shorts Summary</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <img src="./logo.svg" alt="Logo">
+        <h1>Shorts Summary</h1>
+      </header>
+
+      <main>
+        <form id="form" action="">
+          <input type="url" id="url" placeholder="Entre com uma URL de vídeo short no Youtube...">
+          <button id="resumir" title="Resumir">
+            <i class="ph ph-play"></i>
+          </button>
+        </form>
+        <div>
+          <section>
+            <h2>Resumo</h2>
+            <p id="content-summarize" class="placeholder">Escolha um vídeo short para a IA resumir...</p>
+          </section>
+          <section>
+            <h2>Transcrição</h2>
+            <p id="content-transcription" class="placeholder">e transcrever...</p>
+          </section>
+        </div>
+        
+      </main>
+
+      <footer>
+        <span>Desenvolvido com 💜 no NWL da RocketSeat 🚀 na Trilha Foundations por <a href="https://github.com/devdesignerstudio">github</a></span>
+      </footer>
+
+    </div>
+    <script type="module" src="web/main.js"></script>
+  </body>
+</html>
